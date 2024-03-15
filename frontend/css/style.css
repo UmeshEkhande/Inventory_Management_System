@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info #logoutButton {
+    margin-left: 10px; 
+    font-size: medium;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-form {
+    width: 45%;
+}
+
+.item-form h2 {
+    margin-bottom: 10px;
+}
+
+.item-form .form-group {
+    margin-bottom: 15px;
+}
+
+.item-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.item-form input[type="text"],
+.item-form input[type="number"],
+.item-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.item-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item-list {
+    width: 45%;
+}
+
+.item-list h2 {
+    margin-bottom: 10px;
+}
+
+.item-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item-list li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.item-list li:last-child {
+    margin-bottom: 0;
+}
+
+
